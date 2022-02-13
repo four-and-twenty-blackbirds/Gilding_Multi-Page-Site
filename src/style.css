@@ -1,11 +1,21 @@
 body {
 	background-color: gold;
 	font-family: helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 21px;
 }
 
 h1 {
 	text-align: center;
-	margin: 45px auto;
+	margin: 21px auto 45px;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	border-radius: 6px;
+	background: white;
 }
 
 a {
@@ -28,7 +38,7 @@ hr {
 }
 
 .wrapper {
-	margin: 0 auto;
+	padding: 12px;
 	max-width: 720px;
 }
 
@@ -43,6 +53,7 @@ hr {
 }
 
 .footer {
+	margin: 21px auto 75px;
 	text-align: center;
 }
 
