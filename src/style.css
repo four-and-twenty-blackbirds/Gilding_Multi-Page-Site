@@ -1,0 +1,44 @@
+body {
+	background-color: gold;
+	font-family: helvetica, sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+a {
+	color: blueviolet;
+	text-decoration: none;
+}
+
+a:hover {
+	color: darkslategray;
+	text-decoration: underline;
+}
+
+hr {
+	border-color: darkslategray;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-radius: 6px;
+	opacity: 0.5;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 720px;
+}
+
+.email-link {
+	text-align: center;
+}
+
+.footer {
+	text-align: center;
+}
+
+.footer-link {
+	padding: 0px 12px;
+}
